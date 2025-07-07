@@ -2,7 +2,7 @@ def find_percentage():
     n = int(input("Enter the number of students: "))
     student_marks = {}  
 
-    for _ in range(n):
+    for i in range(n):
         data = input("Please enter the student's name followed by their 3 marks separated by spaces: ").split()
         name = data[0]  
         marks = list(map(float, data[1:]))  
